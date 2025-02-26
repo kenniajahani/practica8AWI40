@@ -18,10 +18,10 @@ import pytz
 from flask_cors import CORS, cross_origin
 
 con = mysql.connector.connect(
-    host="185.232.14.52",
-    database="u760464709_16005339_bd",
-    user="u760464709_16005339_usr",
-    password="/iJRzrJBz+P1"
+    host="db5017080085.hosting-data.io",
+    database="dbs13741316",
+    user="dbu5579688",
+    password="kennia123bdionos"
 )
 
 app = Flask(__name__)
