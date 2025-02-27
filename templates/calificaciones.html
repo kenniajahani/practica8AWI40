@@ -1,0 +1,30 @@
+<table class="table table-sm">
+    <thead class="table-active">
+        <tr>
+            <th>Id Calificación</th>
+            <th>Ip</th>
+            <th>Calificación</th>
+            <th>Existencias</th>
+            <th>Id Libro</th>
+            <th>Titulo</th>
+            <th>Autor</th>
+            <th>Fecha Publicaron</th>
+            <th>Resenas</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for calificacion in calificaciones %}
+        <tr>
+            <td>{{ calificacion.id_calificacion }}</td>
+            <td>{{ calificacion.ip }}</td>
+            <td>{{ calificacion.calificacion }}</td>
+            <td>{{ calificacion.id_libro }}</td>
+            <td>{{ calificacion.titulo }}</td>
+            <td>{{ calificacion.autor }}</td>
+            <td>{{ calificacion.fecha_publicacion }}</td>
+            <td>{{ calificacion.resena }}</td>
+
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
